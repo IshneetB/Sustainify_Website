@@ -224,7 +224,7 @@ body {
     font-size: 18px; /* Adjust font size */
     background-color: rgba(0, 0, 0, 0.7); /* Transparent background for contrast */
     border-radius: 10px;
-    animation: bounce 2s infinite;
+    transform: rotateY(150deg);
   }
 
   .susSteps2 {
@@ -237,14 +237,6 @@ body {
     font-size: 18px; /* Adjust font size */
     background-color: rgba(0, 0, 0, 0.7); /* Transparent background for contrast */
     border-radius: 10px;
-    animation: bounce 2s infinite;
+    transform: rotateY(150deg);
   }
 
-  @keyframes bounce {
-    0%, 100% {
-        transform: translateY(0);
-    }
-    50% {
-        transform: translateY(-5px);
-    }
-}
