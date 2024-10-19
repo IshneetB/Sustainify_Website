@@ -49,6 +49,13 @@ body {
     color: darkgreen; /* Adjust active text color as needed */ 
   }
 
+
+.title{
+    padding: 50px;
+    text-align: center;
+    font-size: 50px;
+} 
+
 .borel-regular {
     font-family: "Borel", cursive;
     font-weight: 400;
