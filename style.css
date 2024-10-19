@@ -87,6 +87,15 @@ body {
     animation: typewriter 2s steps(10) infinite alternate, blink 800ms steps(10) infinite normal;
     border-right: 5px solid black;
     margin: 0;
+
+    @keyframes typewriter {
+        from {
+            width: 0ch;
+        }
+        to {
+            width: 10ch;
+        }
+    }
 }
 
 .titleAbout h1 {
@@ -97,6 +106,15 @@ body {
     animation: typewriterAbout 2s steps(5) infinite alternate, blink 800ms steps(5) infinite normal;
     border-right: 5px solid black;
     margin: 0;
+
+    @keyframes typewriter {
+        from {
+            width: 0ch;
+        }
+        to {
+            width: 5ch;
+        }
+    }
 }
 
 .titleSS h1 {
@@ -107,6 +125,15 @@ body {
     animation: typewriterSS 2s steps(17) infinite alternate, blink 800ms steps(17) infinite normal;
     border-right: 5px solid black;
     margin: 0;
+
+    @keyframes typewriter {
+        from {
+            width: 0ch;
+        }
+        to {
+            width: 17ch;
+        }
+    }
 }
 
 .titleArticles h1 {
@@ -117,30 +144,29 @@ body {
     animation: typewriterArticles 2s steps(8) infinite alternate, blink 800ms steps(8) infinite normal;
     border-right: 5px solid black;
     margin: 0;
+
+    @keyframes typewriter {
+        from {
+            width: 0ch;
+        }
+        to {
+            width: 8ch;
+        }
+    }
 }
 
-/* Learn more button */
-.learn-more {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 20px;
-}
-
-.learn-more button {
-    padding: 15px 30px; /* Adjusts size of the button */
-    background-color: rgba(255, 255, 255, 0.8); /* Button background with some transparency */
-    border: none; /* Removes default button border */
-    border-radius: 8px; /* Rounded corners */
-    color: darkgreen; /* Button text color */
-    font-size: 24px; /* Button font size */
-    cursor: pointer; /* Changes the cursor to a pointer on hover */
-    transition: background-color 0.3s ease; /* Smooth background color change on hover */
-}
-
-.learn-more button:hover {
-    background-color: rgba(255, 255, 255, 1); /* Full opacity on hover */
-}
+/* Info section styling */
+.info {
+    position: relative;
+    text-align: center;
+    margin: 50px auto;
+    padding: 20px;
+    color: white;
+    max-width: 800px; /* Adjust width as necessary */
+    font-size: 18px; /* Adjust font size */
+    background-color: rgba(0, 0, 0, 0.7); /* Transparent background for contrast */
+    border-radius: 10px;
+  }
 
 /* Typewriter and blink animations */
 @keyframes typewriter {
