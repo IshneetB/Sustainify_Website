@@ -1,37 +1,27 @@
 body {
-    background-color: #B3FFCC, rgb(179,255,204);
+    background-color: white;
 }
 
-.navigation ul{
-    list-style-type: none;
-    margin: none;
-    padding: 10px;
-    background-color: #5e5a5a;
+.topnav {
+    overflow: hidden;
+    background-color: transparent; /* Adjust background color as needed */
   }
   
-  /*puts all the list items in one line with 25px of padding to the left*/
-  .navigation li{
-    display: inline;
-    padding-left:25px;
-  }
-  
-  /* Turns the links in the navigation bar white*/
-  .navigation a{
-    color: white;
+  /* navigation bar */
+  .topnav a {
+    float: right;
+    color: dark rgb(5, 57, 5);
+    text-align: center;
+    padding: 14px 16px;
     text-decoration: none;
-  }
-  
-  /* Changes the links to blue when they are hovered on*/
-  .navigation a:hover{
-    color: #2fc3f4;
-
-  }
-  
-  /*Removes the margin of the navigation */
-  .navigation{
-    margin: 0px;
+    font-size: 17px;
   }
 
-  .title{
-    background-image: url(background2.jpg);
+  .topnav a:visited {
+    color: darkgreen; /* Ensure visited links also appear dark green */
+}
+  
+  .topnav a.active {
+    color: darkgreen; /* Adjust active text color as needed */ 
   }
+  
