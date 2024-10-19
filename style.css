@@ -252,6 +252,7 @@ body {
     height: 300px; /* Increase the height to better fit the text */
     perspective: 1000px;
     margin: 20px auto;
+    margin-bottom: 60px;
 }
 
 .flip-card-inner {
