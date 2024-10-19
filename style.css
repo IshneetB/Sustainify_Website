@@ -54,7 +54,7 @@ body {
 }
 
 .topnav a {
-    color: darkgreen;
+    color: rgb(2, 61, 2);
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
@@ -62,11 +62,11 @@ body {
 }
 
 .topnav a:visited {
-    color: darkgreen;
+    color: rgb(2, 61, 2);
 }
 
 .topnav a.active {
-    color: darkgreen;
+    color: rgb(2, 61, 2);
 }
 
 /* Flexbox layout for centering title and button */
@@ -93,7 +93,7 @@ body {
 .learn-more {
     margin-top: 20px;
     padding: 15px 30px;
-    background-color: darkgreen;
+    background-color: rgb(2, 61, 2);
     color: white;
     text-align: center;
     font-size: 20px;
