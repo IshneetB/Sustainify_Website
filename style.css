@@ -10,7 +10,7 @@ body {
   /* navigation bar */
   .topnav a {
     float: right;
-    color: white;
+    color: dark rgb(5, 57, 5);
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
@@ -18,11 +18,11 @@ body {
   }
   
   .topnav a:hover {
-    background-color:white; 
+    background-color:black;
     color:black;
   }
   
   .topnav a.active {
-    color: white; /* Adjust active text color as needed */
+    color: black; /* Adjust active text color as needed */
   }
   
