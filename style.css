@@ -1,6 +1,9 @@
+*{
+    font-family: Borel;
+}
+
 body html {
     background-color: white;
-    font-family: Borel;
 }
 
 /* Fullscreen background image */
