@@ -84,7 +84,7 @@ body {
     color: white;
     white-space: nowrap;
     overflow: hidden;
-    animation: typewriter 2s steps(13) infinite alternate, blink 800ms steps(13) infinite normal;
+    animation: typewriter 2s steps(10) infinite alternate, blink 800ms steps(10) infinite normal;
     border-right: 5px solid black;
     margin: 0;
 }
@@ -105,10 +105,10 @@ body {
 /* Typewriter and blink animations */
 @keyframes typewriter {
     from {
-        width: 0%;
+        width: 0ch;
     }
     to {
-        width: 50%;
+        width: 10ch;
     }
 }
 
