@@ -155,32 +155,6 @@ body {
     }
 }
 
-/* Style for the anchor tag */
-.learn-more a {
-    text-decoration: none; /* Remove underline from the link */
-  }
-  
-  /* Style for the button */
-  .learn-more button {
-    background-color: #4CAF50; /* Green background */
-    border: none;              /* Remove borders */
-    color: white;              /* White text */
-    padding: 10px 20px;        /* Add some padding */
-    text-align: center;        /* Center the text */
-    text-decoration: none;     /* Remove underline */
-    display: inline-block;     /* Keep the button inline */
-    font-size: 16px;           /* Set font size */
-    cursor: pointer;           /* Change cursor on hover */
-    border-radius: 5px;        /* Rounded corners */
-    transition: background-color 0.3s ease; /* Add a transition effect */
-  }
-  
-  /* Style for hover effect */
-  .learn-more button:hover {
-    background-color: #45a049; /* Darker green on hover */
-  }
-  
-
 /* Typewriter and blink animations 
 @keyframes typewriter titleArticles{
     from {
