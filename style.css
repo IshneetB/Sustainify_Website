@@ -1,5 +1,5 @@
 *{
-    font-family: delius-unicase-regular;
+    font-family: "Delius Unicase";
 }
 
 .delius-unicase-regular {
@@ -67,8 +67,3 @@ body {
     color: white;
 } 
 
-.borel-regular {
-    font-family: "Borel", cursive;
-    font-weight: 400;
-    font-style: normal;
-}
