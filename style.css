@@ -67,6 +67,62 @@ body {
     color: white;
 } 
 
+.learn-more {
+    margin-top: 10px; /* Space between the title and the box */
+    padding: 15px 30px; /* Padding inside the box */
+    background-color: darkgreen; /* Background color of the box */
+    color: white; /* Text color */
+    text-align: center; /* Center align the text */
+    font-size: 20px; /* Font size */
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer; /* Change cursor to pointer on hover */
+    transition: background-color 0.3s; /* Smooth transition for hover effect */
+}
+
+.learn-more:hover {
+    background-color: lightgreen; /* Change background on hover */
+}
+
+
+
+
+
+body {
+    background-color: #2ca32c;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    display: flex;
+}
+
+h1 {
+    font-size: 90px;
+    white-space: nowrap;
+    overflow: hidden;
+    animation: typewriter 2s steps(13) infinite alternate,
+        blink 800ms steps(13) infinite normal;
+    border-right: 5px solid black;
+}
+
+@keyframes typewriter {
+    from {
+        width: 0%;
+    }
+
+    to {
+        width: 50%;
+    }
+}
+
+@keyframes blink {
+    from {
+        border-color: black;
+    }
+
+    to {
+        border-color: transparent;
+    }
+}
 
 
 
