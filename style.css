@@ -228,8 +228,8 @@ body {
 
   .flip-card {
     background-color: transparent;
-    width: 300px;
-    height: 200px;
+    width: 350px; /* Increase the width to better fit the text */
+    height: 300px; /* Increase the height to better fit the text */
     perspective: 1000px;
     margin: 20px auto;
 }
@@ -257,8 +257,11 @@ body {
     border-radius: 15px;
     padding: 20px;
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+    overflow-wrap: break-word; /* Prevent text from overflowing */
+    word-break: break-word;
 }
 
+/* Front side of the flip card */
 .flip-card-front {
     background-color: white;
     color: rgb(2, 61, 2);
@@ -266,16 +269,18 @@ body {
     font-family: 'Delius Unicase', cursive;
 }
 
+/* Back side of the flip card */
 .flip-card-back {
     background-color: white;
     color: rgb(2, 61, 2);
     transform: rotateY(180deg);
     font-size: 16px;
     font-family: 'Borel', cursive;
+    overflow-y: auto; /* If text overflows vertically, this will add a scrollbar */
+    padding: 20px; /* Ensure the text doesn't touch the edges */
 }
 
 .flip-card-front i {
     margin-right: 10px;
     font-size: 24px;
 }
-
