@@ -67,3 +67,20 @@ body {
     color: white;
 } 
 
+.learn-more {
+    margin-top: 20px; /* Space between the title and the box */
+    padding: 15px 30px; /* Padding inside the box */
+    background-color: darkgreen; /* Background color of the box */
+    color: white; /* Text color */
+    text-align: center; /* Center align the text */
+    font-size: 20px; /* Font size */
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer; /* Change cursor to pointer on hover */
+    transition: background-color 0.3s; /* Smooth transition for hover effect */
+}
+
+.learn-more:hover {
+    background-color: lightgreen; /* Change background on hover */
+}
+
+
