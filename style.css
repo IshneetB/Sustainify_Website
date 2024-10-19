@@ -157,15 +157,25 @@ body {
 
 /* Learn more button */
 .learn-more {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     margin-top: 20px;
-    padding: 15px 30px;
-    background-color: rgb(2, 61, 2);
-    color: white;
-    text-align: center;
-    font-size: 20px;
-    border-radius: 5px;
-    cursor: pointer;
-    transition: background-color 0.3s;
+}
+
+.learn-more button {
+    padding: 15px 30px; /* Adjusts size of the button */
+    background-color: rgba(255, 255, 255, 0.8); /* Button background with some transparency */
+    border: none; /* Removes default button border */
+    border-radius: 8px; /* Rounded corners */
+    color: darkgreen; /* Button text color */
+    font-size: 24px; /* Button font size */
+    cursor: pointer; /* Changes the cursor to a pointer on hover */
+    transition: background-color 0.3s ease; /* Smooth background color change on hover */
+}
+
+.learn-more button:hover {
+    background-color: rgba(255, 255, 255, 1); /* Full opacity on hover */
 }
 
 /* Typewriter and blink animations */
