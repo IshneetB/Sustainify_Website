@@ -16,6 +16,10 @@ body {
     text-decoration: none;
     font-size: 17px;
   }
+
+  .topnav a:visited {
+    color: darkgreen; /* Ensure visited links also appear dark green */
+}
   
   .topnav a.active {
     color: black; /* Adjust active text color as needed */ 
