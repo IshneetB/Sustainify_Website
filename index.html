@@ -32,17 +32,21 @@
     </div>
 
     <div class="learn-more">
-      <a href="#Learn More!">Learn More!</a>
-    </div>
+      <button onclick="scrollToSection()">Learn More</button>
+  </div>
 </div>
 
+<!-- Placeholder section to scroll to -->
+<div id="about-section" style="height: 100vh; background-color: lightgray;">
+  <h2>About Us</h2>
+  <p>More information about Sustainify...</p>
 </div>
-       
-<div id="About">
-  <div class = "nextpage">
-    <h2> About </h2>
-    <p> Our goal is to...</p>
-    <img src = "me.png" class = "center">
+
+<script>
+  function scrollToSection() {
+      document.getElementById('about-section').scrollIntoView({ behavior: 'smooth' });
+  }
+</script>
 </div>
 </div>
 
