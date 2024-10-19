@@ -224,7 +224,7 @@ body {
     font-size: 18px; /* Adjust font size */
     background-color: rgba(0, 0, 0, 0.7); /* Transparent background for contrast */
     border-radius: 10px;
-    background: linear-gradient(135deg, #022b0d, #0d5c1e);
+    animation: bounce 2s infinite;
   }
 
   .susSteps2 {
@@ -237,6 +237,14 @@ body {
     font-size: 18px; /* Adjust font size */
     background-color: rgba(0, 0, 0, 0.7); /* Transparent background for contrast */
     border-radius: 10px;
-    background: linear-gradient(135deg, #022b0d, #0d5c1e);
+    animation: bounce 2s infinite;
   }
 
+  @keyframes bounce {
+    0%, 100% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-5px);
+    }
+}
