@@ -214,29 +214,56 @@ body {
     border-radius: 10px;
   }
 
-  .susSteps1 {
-    position: relative;
-    text-align: center;
-    margin: 50px auto;
-    padding: 20px;
-    color: white;
-    max-width: 800px; /* Adjust width as necessary */
-    font-size: 18px; /* Adjust font size */
-    background-color: rgba(0, 0, 0, 0.7); /* Transparent background for contrast */
-    border-radius: 10px;
-    transform: rotateY(150deg);
-  }
+  .flip-card {
+    background-color: transparent;
+    width: 300px;
+    height: 200px;
+    perspective: 1000px;
+    margin: 20px auto;
+}
 
-  .susSteps2 {
+.flip-card-inner {
     position: relative;
-    text-align: center;
-    margin: 50px auto;
+    width: 100%;
+    height: 100%;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+}
+
+.flip-card:hover .flip-card-inner {
+    transform: rotateY(180deg);
+}
+
+.flip-card-front, .flip-card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
     padding: 20px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+}
+
+.flip-card-front {
+    background-color: #4CAF50;
     color: white;
-    max-width: 800px; /* Adjust width as necessary */
-    font-size: 18px; /* Adjust font size */
-    background-color: rgba(0, 0, 0, 0.7); /* Transparent background for contrast */
-    border-radius: 10px;
-    transform: rotateY(150deg);
-  }
+    font-size: 20px;
+    font-family: 'Delius Unicase', cursive;
+}
+
+.flip-card-back {
+    background-color: #f0f0f0;
+    color: #333;
+    transform: rotateY(180deg);
+    font-size: 16px;
+    font-family: 'Borel', cursive;
+}
+
+.flip-card-front i {
+    margin-right: 10px;
+    font-size: 24px;
+}
 
