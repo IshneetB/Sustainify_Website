@@ -31,3 +31,7 @@ body {
   .navigation{
     margin: 0px;
   }
+
+  .title{
+    background-image: url(background2.jpg);
+  }
