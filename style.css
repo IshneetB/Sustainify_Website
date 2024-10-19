@@ -18,10 +18,10 @@ body {
   }
 
   .topnav a:visited {
-    color: darkgreen; /* Ensure visited links also appear dark green */
+    color:dark rgb(5, 57, 5); /* Ensure visited links also appear dark green */
 }
   
   .topnav a.active {
-    color: black; /* Adjust active text color as needed */ 
+    color: dark rgb(5, 57, 5);; /* Adjust active text color as needed */ 
   }
   
