@@ -102,10 +102,6 @@ body {
     transition: background-color 0.3s;
 }
 
-.learn-more:hover {
-    background-color: lightgreen;
-}
-
 /* Typewriter and blink animations */
 @keyframes typewriter {
     from {
