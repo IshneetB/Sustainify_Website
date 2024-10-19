@@ -214,6 +214,18 @@ body {
     border-radius: 10px;
   }
 
+  .articleInfo{
+    position: relative;
+    text-align: center;
+    margin: 50px auto;
+    padding: 20px;
+    color: white;
+    max-width: 800px; /* Adjust width as necessary */
+    font-size: 18px; /* Adjust font size */
+    background-color: rgba(0, 0, 0, 0.7); /* Transparent background for contrast */
+    border-radius: 10px;  
+  }
+
   .flip-card {
     background-color: transparent;
     width: 300px;
