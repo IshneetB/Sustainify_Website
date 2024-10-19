@@ -28,4 +28,7 @@ body {
 
 .title{
     background-image: url(background2.jpg);
+    padding: 50px;
+    text-align: center;
+    font-size: 50px;
 } 
