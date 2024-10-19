@@ -24,4 +24,8 @@ body {
   .topnav a.active {
     color: darkgreen; /* Adjust active text color as needed */ 
   }
-  
+
+
+.title{
+    background-image: url(background2.jpg);
+} 
