@@ -1,3 +1,33 @@
 body {
     background-color:#DAF7A6;
 }
+
+.navigation ul{
+    list-style-type: none;
+    margin: none;
+    padding: 10px;
+    background-color: #5e5a5a;
+  }
+  
+  /*puts all the list items in one line with 25px of padding to the left*/
+  .navigation li{
+    display: inline;
+    padding-left:25px;
+  }
+  
+  /* Turns the links in the navigation bar white*/
+  .navigation a{
+    color: white;
+    text-decoration: none;
+  }
+  
+  /* Changes the links to blue when they are hovered on*/
+  .navigation a:hover{
+    color: #2fc3f4;
+
+  }
+  
+  /*Removes the margin of the navigation */
+  .navigation{
+    margin: 0px;
+  }
