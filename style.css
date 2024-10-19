@@ -94,7 +94,7 @@ body {
     color: white;
     white-space: nowrap;
     overflow: hidden;
-    animation: typewriter 2s steps(5) infinite alternate, blink 800ms steps(5) infinite normal;
+    animation: typewriterAbout 2s steps(5) infinite alternate, blink 800ms steps(5) infinite normal;
     border-right: 5px solid black;
     margin: 0;
 }
@@ -104,7 +104,7 @@ body {
     color: white;
     white-space: nowrap;
     overflow: hidden;
-    animation: typewriter 2s steps(17) infinite alternate, blink 800ms steps(17) infinite normal;
+    animation: typewriterSS 2s steps(17) infinite alternate, blink 800ms steps(17) infinite normal;
     border-right: 5px solid black;
     margin: 0;
 }
@@ -114,7 +114,7 @@ body {
     color: white;
     white-space: nowrap;
     overflow: hidden;
-    animation: typewriter 2s steps(8) infinite alternate, blink 800ms steps(8) infinite normal;
+    animation: typewriterArticles 2s steps(8) infinite alternate, blink 800ms steps(8) infinite normal;
     border-right: 5px solid black;
     margin: 0;
 }
@@ -143,12 +143,39 @@ body {
 }
 
 /* Typewriter and blink animations */
-@keyframes typewriter titleArticles{
+@keyframes typewriter {
     from {
         width: 0ch;
     }
     to {
         width: 10ch;
+    }
+}
+
+@keyframes typewriterSS {
+    from {
+        width: 0ch;
+    }
+    to {
+        width: 16.2ch;
+    }
+}
+
+@keyframes typewriterArticles {
+    from {
+        width: 0ch;
+    }
+    to {
+        width: 8ch;
+    }
+}
+
+@keyframes typewriterAbout {
+    from {
+        width: 0ch;
+    }
+    to {
+        width: 6.4ch;
     }
 }
 
