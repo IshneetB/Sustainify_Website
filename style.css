@@ -248,15 +248,15 @@ body {
 }
 
 .flip-card-front {
-    background-color: rgb(2, 61, 2);
+    background-color: black;
     color: white;
     font-size: 20px;
     font-family: 'Delius Unicase', cursive;
 }
 
 .flip-card-back {
-    background-color: rgb(2, 61, 2);
-    color: #333;
+    background-color: black;
+    color: white;
     transform: rotateY(180deg);
     font-size: 16px;
     font-family: 'Borel', cursive;
