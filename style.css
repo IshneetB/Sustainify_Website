@@ -17,13 +17,13 @@ body {
   
   /* Turns the links in the navigation bar white*/
   .navigation a{
-    color: white;
+    color: dark rgb(13, 55, 13);
     text-decoration: none;
   }
   
   /* Changes the links to blue when they are hovered on*/
   .navigation a:hover{
-    color: #2fc3f4;
+    color: #f4f4f4;
 
   }
   
