@@ -68,7 +68,7 @@ body {
 } 
 
 .learn-more {
-    margin-top: 20px; /* Space between the title and the box */
+    margin-top: 10px; /* Space between the title and the box */
     padding: 15px 30px; /* Padding inside the box */
     background-color: darkgreen; /* Background color of the box */
     color: white; /* Text color */
