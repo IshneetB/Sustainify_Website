@@ -68,19 +68,17 @@ body {
 } 
 
 .learn-more {
-    margin-top: 10px; /* Space between the title and the box */
-    padding: 15px 30px; /* Padding inside the box */
-    background-color: darkgreen; /* Background color of the box */
-    color: white; /* Text color */
-    text-align: center; /* Center align the text */
-    font-size: 20px; /* Font size */
-    border-radius: 5px; /* Rounded corners */
-    cursor: pointer; /* Change cursor to pointer on hover */
-    transition: background-color 0.3s; /* Smooth transition for hover effect */
+    display: flex; /* Enables flexbox for centering */
+    justify-content: center; /* Centers content horizontally */
+    align-items: center; /* Centers content vertically */
+    margin-top: 20px; /* Space between title and Learn More box */
+    padding: 20px; /* Padding inside the box */
+    background-color: rgba(255, 255, 255, 0.8); /* Light background with some transparency */
+    border-radius: 8px; /* Rounded corners */
+    width: 80%; /* Responsive width, you can adjust this */
+    max-width: 600px; /* Optional max width */
+    color: darkgreen; /* Text color */
+    font-size: 24px; /* Font size for the text */
+    text-align: center; /* Center align text */
 }
-
-.learn-more:hover {
-    background-color: lightgreen; /* Change background on hover */
-}
-
 
