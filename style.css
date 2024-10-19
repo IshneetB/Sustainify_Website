@@ -155,7 +155,20 @@ body {
     }
 }
 
-/* Typewriter and blink animations 
+/* Info section styling */
+.info {
+    position: relative;
+    text-align: center;
+    margin: 50px auto;
+    padding: 20px;
+    color: white;
+    max-width: 800px; /* Adjust width as necessary */
+    font-size: 18px; /* Adjust font size */
+    background-color: rgba(0, 0, 0, 0.7); /* Transparent background for contrast */
+    border-radius: 10px;
+  }
+
+/* Typewriter and blink animations */
 @keyframes typewriter titleArticles{
     from {
         width: 0ch;
@@ -163,7 +176,7 @@ body {
     to {
         width: 10ch;
     }
-}*/
+}
 
 @keyframes blink {
     from {
