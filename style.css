@@ -198,10 +198,10 @@ body {
     opacity: 0.9;
 }
 
-  .flip-card {
+.flip-card {
     background-color: transparent;
-    width: 500px; /* Increase the width to better fit the text */
-    height: 300px; /* Increase the height to better fit the text */
+    width: 500px; /* Adjust as needed */
+    height: 320px; /* Adjust height slightly to allow for content spacing */
     perspective: 1000px;
     margin: 20px auto;
     margin-bottom: 60px;
@@ -249,11 +249,14 @@ body {
     transform: rotateY(180deg);
     font-size: 16px;
     font-family: 'Borel', cursive;
-    overflow-y: auto; /* If text overflows vertically, this will add a scrollbar */
-    padding: 20px; /* Ensure the text doesn't touch the edges */
+    overflow-y: auto; /* Adds a scrollbar if content overflows */
+    padding: 20px; /* Ensures the text doesn't touch the edges */
+    flex-direction: column; /* Stack elements vertically */
+    text-align: center; /* Center text for a neat appearance */
 }
 
 .flip-card-front i {
     margin-right: 10px;
     font-size: 24px;
 }
+
