@@ -79,6 +79,25 @@ body {
     z-index: 1; /* Ensures it's above the background and overlay */
 }
 
+/* Quote Styling */
+.quote {
+    margin-top: 30px; /* Adjust spacing between the button and quote */
+    text-align: center;
+    font-size: 24px; /* Adjust the size of the quote */
+    color: white; /* White text color for contrast */
+    font-family: 'Borel', cursive; /* Font choice */
+    padding: 10px;
+    max-width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.quote h1 {
+    font-style: italic;
+    font-weight: normal;
+}
+
+
 .titleHome h1 {
     font-size: 90px;
     color: white;
