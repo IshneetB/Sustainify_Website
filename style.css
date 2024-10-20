@@ -174,8 +174,9 @@ body {
     color: rgb(2, 61, 2);
     max-width: 800px; /* Adjust width as necessary */
     font-size: 18px; /* Adjust font size */
-    background-color: rgba(255, 255, 255,0.7); /* Transparent background for contrast */
+    background-color: rgba(255, 255, 255,0.6); /* Transparent background for contrast */
     border-radius: 10px;
+    opacity: 0.7;
   }
 
   .articleLinks {
@@ -191,10 +192,14 @@ body {
   }
 
   .articleLinks {
-    opacity: 0.7;
+    opacity: 0.6;
   }
   
   .articleLinks:hover {
+    opacity: 0.8;
+}
+
+.info:hover{
     opacity: 0.9;
 }
 
