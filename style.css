@@ -226,7 +226,7 @@ body {
     border-radius: 10px;  
   }
 
-  articleLinks {
+  .articleLinks {
     position: relative;
     text-align: center;
     margin: 50px auto;
@@ -238,11 +238,11 @@ body {
     border-radius: 10px;  
   }
 
-  articleLinks {
+  .articleLinks {
     opacity: 0.5;
   }
   
-  articleLinks:hover {
+  .articleLinks:hover {
     opacity: 1.0;
 }
 
