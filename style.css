@@ -87,15 +87,6 @@ body {
     animation: typewriter 2s steps(10) infinite alternate, blink 800ms steps(10) infinite normal;
     border-right: 5px solid black;
     margin: 0;
-
-    @keyframes typewriter {
-        from {
-            width: 0ch;
-        }
-        to {
-            width: 10ch;
-        }
-    }
 }
 
 .titleAbout h1 {
@@ -106,15 +97,6 @@ body {
     animation: typewriterAbout 2s steps(5) infinite alternate, blink 800ms steps(5) infinite normal;
     border-right: 5px solid black;
     margin: 0;
-
-    @keyframes typewriter {
-        from {
-            width: 0ch;
-        }
-        to {
-            width: 5ch;
-        }
-    }
 }
 
 .titleSS h1 {
@@ -125,15 +107,6 @@ body {
     animation: typewriterSS 2s steps(17) infinite alternate, blink 800ms steps(17) infinite normal;
     border-right: 5px solid black;
     margin: 0;
-
-    @keyframes typewriter {
-        from {
-            width: 0ch;
-        }
-        to {
-            width: 17ch;
-        }
-    }
 }
 
 .titleArticles h1 {
@@ -144,15 +117,6 @@ body {
     animation: typewriterArticles 2s steps(8) infinite alternate, blink 800ms steps(8) infinite normal;
     border-right: 5px solid black;
     margin: 0;
-
-    @keyframes typewriter {
-        from {
-            width: 0ch;
-        }
-        to {
-            width: 8ch;
-        }
-    }
 }
 
 /* Typewriter and blink animations */
@@ -231,7 +195,7 @@ body {
   }
   
   .articleLinks:hover {
-    opacity: 1.0;
+    opacity: 0.9;
 }
 
   .flip-card {
