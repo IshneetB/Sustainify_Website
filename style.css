@@ -248,7 +248,7 @@ body {
 
   .flip-card {
     background-color: transparent;
-    width: 350px; /* Increase the width to better fit the text */
+    width: 500px; /* Increase the width to better fit the text */
     height: 300px; /* Increase the height to better fit the text */
     perspective: 1000px;
     margin: 20px auto;
