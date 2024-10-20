@@ -235,18 +235,6 @@ body {
     border-radius: 10px;
   }
 
-  .articleInfo{
-    position: relative;
-    text-align: center;
-    margin: 50px auto;
-    padding: 20px;
-    color: white;
-    max-width: 800px; /* Adjust width as necessary */
-    font-size: 18px; /* Adjust font size */
-    background-color: rgb(255, 255, 255); /* Transparent background for contrast */
-    border-radius: 10px;  
-  }
-
   .articleLinks {
     position: relative;
     text-align: center;
