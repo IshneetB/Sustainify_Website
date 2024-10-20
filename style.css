@@ -79,25 +79,6 @@ body {
     z-index: 1; /* Ensures it's above the background and overlay */
 }
 
-/* Quote Styling */
-.quote {
-    margin-top: 30px; /* Adjust spacing between the button and quote */
-    text-align: center;
-    font-size: 24px; /* Adjust the size of the quote */
-    color: white; /* White text color for contrast */
-    font-family: 'Borel', cursive; /* Font choice */
-    padding: 10px;
-    max-width: 80%;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-.quote h1 {
-    font-style: italic;
-    font-weight: normal;
-}
-
-
 .titleHome h1 {
     font-size: 90px;
     color: white;
@@ -229,7 +210,7 @@ body {
     color: rgb(2, 61, 2);
     max-width: 800px; /* Adjust width as necessary */
     font-size: 18px; /* Adjust font size */
-    background-color: rgb(255, 255, 255); /* Transparent background for contrast */
+    background-color: rgba(255, 255, 255,0.7); /* Transparent background for contrast */
     border-radius: 10px;
   }
 
@@ -238,25 +219,25 @@ body {
     text-align: center;
     margin: 50px auto;
     padding: 20px;
-    color: white;
+    color: rgb(7, 59, 7);
     max-width: 800px; /* Adjust width as necessary */
     font-size: 18px; /* Adjust font size */
-    background-color: rgba(255, 255, 255, 0.5); /* Transparent background for contrast */
+    background-color: rgb(255, 255, 255); /* Transparent background for contrast */
     border-radius: 10px;  
   }
 
   .articleLinks {
-    opacity: 0.5;
+    opacity: 0.7;
   }
   
   .articleLinks:hover {
     opacity: 1.0;
 }
 
- .flip-card {
+  .flip-card {
     background-color: transparent;
-    width: 500px; /* Adjust as needed */
-    height: 320px; /* Adjust height slightly to allow for content spacing */
+    width: 500px; /* Increase the width to better fit the text */
+    height: 300px; /* Increase the height to better fit the text */
     perspective: 1000px;
     margin: 20px auto;
     margin-bottom: 60px;
@@ -304,10 +285,8 @@ body {
     transform: rotateY(180deg);
     font-size: 16px;
     font-family: 'Borel', cursive;
-    overflow-y: auto; /* Adds a scrollbar if content overflows */
-    padding: 20px; /* Ensures the text doesn't touch the edges */
-    flex-direction: column; /* Stack elements vertically */
-    text-align: center; /* Center text for a neat appearance */
+    overflow-y: auto; /* If text overflows vertically, this will add a scrollbar */
+    padding: 20px; /* Ensure the text doesn't touch the edges */
 }
 
 .flip-card-front i {
